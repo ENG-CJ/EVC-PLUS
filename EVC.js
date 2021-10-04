@@ -23,7 +23,7 @@ if (Pin==pin){
     }
     // kaarka hadalka
     else if (services==2){
-        kaarka_hadlka=prompt('Kaarka Hadalka\n1. Kushubo Airtime\n2. Ugushub Airtime');
+        var kaarka_hadlka=prompt('Kaarka Hadalka\n1. Kushubo Airtime\n2. Ugushub Airtime');
         // validation kaarka hadalka
         if (kaarka_hadlka==1){
             var money=prompt('Geli Lacagta');
